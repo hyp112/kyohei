@@ -3,7 +3,6 @@ body {
     line-height: 1.8;
     color: #444;
     background-color: #ffffff;
-    display: flex;
 }
 
 .sidebar {
@@ -11,9 +10,18 @@ body {
     background-color: #f8f8f8;
     padding: 20px;
     position: fixed;
+    top: 0;
+    left: 0;
     height: 100vh;
     overflow-y: auto;
 }
+
+.content {
+    width: 75%;
+    margin-left: 25%;
+    padding: 40px;
+}
+
 
 .sidebar h1 {
     font-size: 1.8em;
@@ -36,12 +44,6 @@ body {
 
 .social-links i {
     font-size: 1.2em;
-}
-
-.content {
-    width: 75%;
-    margin-left: 25%;
-    padding: 40px;
 }
 
 header {
