@@ -31,7 +31,27 @@ body {
 
 /* ✅ SNSアイコン */
 .social-links {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #0066cc;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
 
 .social-links a {
@@ -44,10 +64,6 @@ body {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-}
-
-.social-links i {
-    font-size: 1.2em;
 }
 
 /* ✅ メインコンテンツ */
